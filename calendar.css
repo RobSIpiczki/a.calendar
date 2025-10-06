@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+#generateCalendarBtn{
+    background-color: cornsilk;
+    color: brown;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 15px auto;
+    display: block;
+    width: 10rem;
+    height: 2rem;
+}
+.calendar {
+    width: 800px;
+    height: 900px;
+    border: 5px black solid;
+    margin: 15px auto;
+    box-shadow:10px 10px gray ;
+    background-image: url('Two_hugging_cats.jpg?=v1');
+    background-size: cover;
+    display:grid;
+    grid-template-columns:repeat(4, 25%);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "door5 door12 door18 door14"
+    "door15 door3 door20 door10"
+    "door1 door19 door7 door17"
+    "door8 door11 door2 door6"
+    "door4 door9 door13 door16";
+
+}
+
+.img{
+    background: none;
+    background-position: center;
+    grid-area: none;
+
+}
+.text{
+    font-size: 50px;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+
+}
