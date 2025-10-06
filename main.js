@@ -12,15 +12,16 @@ const createCalendar = () => {
         const calendarDoor = document.createElement("div");
         const calendarDoorText = document.createElement("div");
         calendarDoor.classList.add("img");
+        calendarDoor.style.gridArea = "door" + (i + 1);
         calendar.appendChild(calendarDoor);
         calendarDoorText.classList.add("text");
         calendarDoorText.innerHTML = (i + 1);
         calendarDoor.appendChild(calendarDoorText);
         const imgNumber = i + 1;
-        const imgPath = `${imgNumber}.jpg`;
+        const imgPath =  imgNumber + ".jpg";
         calendarDoorText.addEventListener("click", openDoor.bind(null, imgPath));
-        calendarDoorText.addEventListener("touchstart", openDoor.bind(null, imgPath));
     }
 };
+
 
 calendarButton.addEventListener("click", createCalendar);
