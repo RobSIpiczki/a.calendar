@@ -4,8 +4,8 @@
 }
 
 #faviconBtn{
-    height: 2rem;
-    width: auto;
+    width: 25px;
+    height: 25px;
 }
 
 #generateCalendarBtn{
@@ -52,4 +52,5 @@
     border: 2px solid black;
 
 }
+
 
