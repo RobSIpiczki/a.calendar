@@ -2,7 +2,7 @@
     box-sizing: border-box;
 
 }
-
+button{font-size: 60%}
 #generateCalendarBtn{
     background-color: cornsilk;
     color: brown;
@@ -47,6 +47,7 @@
     border: 2px solid black;
 
 }
+
 
 
 
