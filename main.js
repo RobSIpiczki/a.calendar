@@ -18,10 +18,9 @@ const createCalendar = () => {
         calendarDoorText.innerHTML = (i + 1);
         calendarDoor.appendChild(calendarDoorText);
         const imgNumber = i + 1;
-        const imgPath =  imgNumber + ".jpg";
+        const imgPath = `${imgNumber}.jpg`;
         calendarDoorText.addEventListener("click", openDoor.bind(null, imgPath));
     }
 };
-
 
 calendarButton.addEventListener("click", createCalendar);
