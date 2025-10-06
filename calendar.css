@@ -3,11 +3,6 @@
 
 }
 
-#faviconBtn{
-    width: 25px;
-    height: 25px;
-}
-
 #generateCalendarBtn{
     background-color: cornsilk;
     color: brown;
@@ -52,5 +47,6 @@
     border: 2px solid black;
 
 }
+
 
 
